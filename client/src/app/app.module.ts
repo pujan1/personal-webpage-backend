@@ -7,6 +7,7 @@ import { Blob1Component } from './main/blob1/blob1.component';
 import { DecorativeComponent } from './main/decorative/decorative.component';
 import { HomeComponent } from './main/home/home.component';
 import { ContentComponent } from './main/content/content.component';
+import { GridComponent } from './main/grid/grid.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { ContentComponent } from './main/content/content.component';
     Blob1Component,
     DecorativeComponent,
     HomeComponent,
-    ContentComponent
+    ContentComponent,
+    GridComponent
   ],
   imports: [
     BrowserModule
