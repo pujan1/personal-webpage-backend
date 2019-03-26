@@ -110,48 +110,7 @@ section .container h1 {
     line-height: 48px;
   }
 }
-section .container .count {
-  font-size: 42px;
-  line-height: 48px;
-  color: #e77470;
-  z-index: 5;
-  position: relative;
-  font-display: auto;
-  font-family: "Mr Dafoe", sans-serif;
-  -webkit-transform: skewY(-10deg);
-  -ms-transform: skewY(-10deg);
-  transform: skewY(-10deg);
-  margin-bottom: 24px;
-  margin-left: -48px;
-  width: 66.6%;
-}
-@media (max-width: 1024px) {
-  section .container .count {
-    margin-left: -5%;
-  }
-}
-@media (max-width: 767px) {
-  section .container .count {
-    width: 100%;
-    font-size: 32px;
-    line-height: 36px;
-  }
-}
-section .container .count .number {
-  font-size: 18px;
-  display: block;
-  line-height: 18px;
-  margin-bottom: 0;
-}
-@media (max-width: 767px) {
-  section .container .count .number {
-    font-size: 14px;
-    line-height: 14px;
-  }
-}
-section .container .count p {
-  margin-bottom: 0;
-}
+
 .home {
   background-color: #293363;
   position: relative;
@@ -236,6 +195,7 @@ section .container .count p {
   position: relative;
   padding: 96px 0 144px;
 }
+
 .profile .content {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -268,38 +228,7 @@ section .container .count p {
   max-height: 110px;
   background-image: url("data:image/svg+xml,%3Csvg width='1200' height='112' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 41.359C105.333 13.786 219.333 0 342 0c184 0 330.972 96.172 510.5 96.172 119.685 0 235.519-18.27 347.5-54.813V112H0V41.359z' fill='%23141936' fill-rule='evenodd'/%3E%3C/svg%3E");
 }
-.profile .past-clients {
-  width: 100%;
-  margin: 48px 0 96px;
-}
-.profile .past-clients .logos {
-  flex-wrap: wrap;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-flex: 0;
-  -ms-flex: 0 1 auto;
-  flex: 0 1 auto;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-}
-.profile .past-clients .logos figure {
-  width: 25%;
-  text-align: center;
-}
-@media (max-width: 767px) {
-  .profile .past-clients .logos figure {
-    width: 33.3%;
-    padding: 0 12px;
-  }
-}
+
 .contact {
   background: #404a57;
   position: relative;

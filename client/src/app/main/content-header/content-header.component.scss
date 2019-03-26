@@ -1,0 +1,31 @@
+.count {
+  font-size: 42px;
+  line-height: 48px;
+  color: #e77470;
+  z-index: 5;
+  position: relative;
+  font-display: auto;
+  font-family: "Mr Dafoe", sans-serif;
+  -webkit-transform: skewY(-10deg);
+  -ms-transform: skewY(-10deg);
+  transform: skewY(-10deg);
+  margin-bottom: 24px;
+  margin-left: -48px;
+  width: 66.6%;
+
+  p {
+    margin-bottom: 0;
+  }
+}
+@media (max-width: 1024px) {
+  .count {
+    margin-left: -5%;
+  }
+}
+@media (max-width: 767px) {
+  .count {
+    width: 100%;
+    font-size: 32px;
+    line-height: 36px;
+  }
+}
