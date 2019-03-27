@@ -1,0 +1,142 @@
+.contact {
+  background: #404a57;
+  position: relative;
+  padding: 72px 0 144px;
+}
+.contact .content {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+  max-width: 100%;
+  padding: 0 10px;
+}
+@media only screen and (min-width: 65rem) {
+  .contact .content {
+    margin-left: 12.5%;
+  }
+}
+@media only screen and (min-width: 65rem) {
+  .contact .content {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -ms-flex-preferred-size: 75%;
+    flex-basis: 75%;
+    max-width: 75%;
+  }
+}
+.contact .count {
+  width: 47.5%;
+}
+.contact .contact-options {
+  width: 100%;
+  flex-wrap: wrap;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.contact:before {
+  content: "";
+  position: absolute;
+  top: -99px;
+  left: 0;
+  width: 100%;
+  height: 35vw;
+  max-height: 100px;
+  background: url("data:image/svg+xml,%3Csvg width='1200' height='112' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1200 41.359C1094.667 13.786 980.667 0 858 0 674 0 527.028 96.172 347.5 96.172c-119.685 0-235.519-18.27-347.5-54.813V112h1200V41.359z' fill='%23404A57' fill-rule='evenodd'/%3E%3C/svg%3E") -800px
+    0;
+}
+.contact .social {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+  max-width: 100%;
+  padding: 0 10px;
+}
+@media only screen and (min-width: 65rem) {
+  .contact .social {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -ms-flex-preferred-size: 25%;
+    flex-basis: 25%;
+    max-width: 25%;
+  }
+}
+@media only screen and (min-width: 65rem) {
+  .contact .social {
+    margin-left: 12.5%;
+  }
+}
+.contact .social h3 {
+  margin-top: 24px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 24px;
+}
+@media (max-width: 1024px) {
+  .contact .social h3 {
+    margin-top: 48px;
+  }
+}
+.contact .social ul {
+  list-style-type: none;
+  font-size: 14px;
+  line-height: 24px;
+}
+@media (max-width: 1250px) {
+  .contact .social ul {
+    font-size: 16px;
+  }
+}
+.contact .social ul a:link,
+.contact .social ul a:visited {
+  color: #e77470;
+  position: relative;
+}
+.contact .social ul a:hover,
+.contact .social ul a:active {
+  color: #b1cfe4;
+}
+.contact .social ul a:before {
+  position: absolute;
+  margin: 0 auto;
+  top: 90%;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #b1cfe4;
+  content: "";
+  opacity: 0.3;
+  -webkit-transform: scaleX(0);
+  -ms-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.8s;
+  -o-transition-duration: 0.8s;
+  transition-duration: 0.8s;
+  -webkit-transform-origin: 0% 50%;
+  -ms-transform-origin: 0% 50%;
+  transform-origin: 0% 50%;
+}
+.contact .social ul a:hover:before {
+  opacity: 1;
+  -webkit-transform: scaleX(1);
+  -ms-transform: scaleX(1);
+  transform: scaleX(1);
+}

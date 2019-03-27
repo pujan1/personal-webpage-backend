@@ -1,14 +1,14 @@
-:host {
+.home {
   background-color: #293363;
   position: relative;
   padding: 144px 0 288px;
 }
-.container {
+.home .container {
   opacity: 0;
   -webkit-animation: fadeIn 0.2s ease-in-out 0.4s forwards;
-  animation: fadeIn 0.2s ease-in-out 0.4s forwards;
+  animation: fadeIn 0.2s ease-in-out s forwards;
 }
-.content {
+.home .content {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   -ms-flex-preferred-size: 100%;
@@ -17,12 +17,12 @@
   padding: 0 10px;
 }
 @media only screen and (min-width: 65rem) {
-  .content {
+  .home .content {
     margin-left: 12.5%;
   }
 }
 @media only screen and (min-width: 65rem) {
-  .content {
+  .home .content {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     -ms-flex-preferred-size: 50%;
@@ -30,7 +30,7 @@
     max-width: 50%;
   }
 }
-.frame {
+.home .frame {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   -ms-flex-preferred-size: 50%;
@@ -43,7 +43,7 @@
   padding: 36px !important;
 }
 @media only screen and (min-width: 41rem) {
-  .frame {
+  .home .frame {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     -ms-flex-preferred-size: 25%;
@@ -53,26 +53,26 @@
   }
 }
 @media only screen and (min-width: 65rem) {
-  .frame {
+  .home .frame {
     -webkit-box-ordinal-group: 2;
     -ms-flex-order: 1;
     order: 1;
   }
 }
 @media (max-width: 1250px) {
-  .frame {
+  .home .frame {
     margin-left: auto;
     margin-right: auto;
     padding: 0px !important;
   }
 }
 @media (max-width: 1024px) {
-  .frame {
+  .home .frame {
     margin-top: 0;
   }
 }
 @media (max-width: 767px) {
-  .frame {
+  .home .frame {
     margin-bottom: 48px;
     padding: 0px !important;
   }
@@ -164,5 +164,3 @@ img {
   transition: 100ms all ease;
   border: 4px double #e77470;
 }
-
-
