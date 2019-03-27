@@ -1,4 +1,4 @@
-#grid {
+.grid {
   width: 80%;
   height: 100%;
   margin: 0 10%;
@@ -16,7 +16,7 @@
   -webkit-animation: 2s ease both draw;
   animation: 2s ease both draw;
 }
-#grid span {
+.grid span {
   -webkit-box-flex: 1;
   -ms-flex: 1;
   flex: 1;
@@ -26,44 +26,12 @@
   animation: 2s ease both draw;
 }
 @media (max-width: 660px) {
-  #grid span.eight,
-  #grid span.seven,
-  #grid span.six,
-  #grid span.five,
-  #grid span.four,
-  #grid span.three {
+  .grid span.eight,
+  .grid span.seven,
+  .grid span.six,
+  .grid span.five,
+  .grid span.four,
+  .grid span.three {
     display: none;
   }
-}
-#grid span:nth-child(1) {
-  -webkit-animation-delay: 0.1s;
-  animation-delay: 0.1s;
-}
-#grid span:nth-child(2) {
-  -webkit-animation-delay: 0.2s;
-  animation-delay: 0.2s;
-}
-#grid span:nth-child(3) {
-  -webkit-animation-delay: 0.3s;
-  animation-delay: 0.3s;
-}
-#grid span:nth-child(4) {
-  -webkit-animation-delay: 0.4s;
-  animation-delay: 0.4s;
-}
-#grid span:nth-child(5) {
-  -webkit-animation-delay: 0.5s;
-  animation-delay: 0.5s;
-}
-#grid span:nth-child(6) {
-  -webkit-animation-delay: 0.6s;
-  animation-delay: 0.6s;
-}
-#grid span:nth-child(7) {
-  -webkit-animation-delay: 0.7s;
-  animation-delay: 0.7s;
-}
-#grid span:nth-child(8) {
-  -webkit-animation-delay: 0.8s;
-  animation-delay: 0.8s;
 }

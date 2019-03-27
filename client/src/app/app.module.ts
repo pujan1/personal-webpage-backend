@@ -3,21 +3,21 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './main/navbar/navbar.component';
-import { Blob1Component } from './main/blob1/blob1.component';
 import { DecorativeComponent } from './main/decorative/decorative.component';
 import { HomeComponent } from './main/home/home.component';
 import { ContentComponent } from './main/content/content.component';
 import { GridComponent } from './main/grid/grid.component';
+import { ContentHeaderComponent } from './main/content-header/content-header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    Blob1Component,
     DecorativeComponent,
     HomeComponent,
     ContentComponent,
-    GridComponent
+    GridComponent,
+    ContentHeaderComponent
   ],
   imports: [
     BrowserModule
