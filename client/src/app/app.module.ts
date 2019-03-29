@@ -8,6 +8,8 @@ import { HomeComponent } from './main/home/home.component';
 import { ContentComponent } from './main/content/content.component';
 import { GridComponent } from './main/grid/grid.component';
 import { ContentHeaderComponent } from './main/content-header/content-header.component';
+import { ProfileComponent } from './main/profile/profile.component';
+import { ContactComponent } from './main/contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { ContentHeaderComponent } from './main/content-header/content-header.com
     HomeComponent,
     ContentComponent,
     GridComponent,
-    ContentHeaderComponent
+    ContentHeaderComponent,
+    ProfileComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule
