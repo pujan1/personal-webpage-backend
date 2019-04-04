@@ -11,7 +11,7 @@
     "prod": "npm run build && npm run start",
     "babel-node": "babel-node --presets=latest",
     "start": "nodemon --exec npm run babel-node -- ./app.js",
-    "build": "babel src -d dist"
+    "build": "babel ./app.js -d ./dist"
   },
   "author": "Pujan Parikh",
   "license": "ISC",
